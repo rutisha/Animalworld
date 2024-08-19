@@ -6,6 +6,6 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Homepage - Animals</h1>
+    <h1>Dashboardpage - Animals</h1>
 </body>
 </html>

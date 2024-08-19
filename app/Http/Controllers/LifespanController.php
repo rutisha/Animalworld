@@ -21,6 +21,12 @@ class LifespanController extends Controller
         return view('lifespan.index', compact('lifespans'));
     }
 
+    public function trashed()
+    {
+        return view('lifespan.trashed', [
+            'lifespans' => Lifespan::onlyTrashed() -> get()
+        ]);
+    }
     /**
      * Show the form for creating a new resource.
      */
@@ -80,8 +86,28 @@ class LifespanController extends Controller
     /**
      * Remove the specified resource from storage.
      */
-    public function destroy(Lifespan $lifespan)
+    public function destroy($id)
     {
-        //
+        $lifespan = Lifespan::withTrashed() -> where('id', $id) -> first();
+        $lifespan -> forceDelete();
+        Session::flash('success', 'Lifespan deleted successfully!');
+        return redirect() -> route('lifespan.index');
+    }
+    
+    public function trash($id)
+    {
+        Lifespan::destroy($id);
+        Session::flash('success', 'Lifespan trashed successfully');
+        return redirect() -> route('lifespan.index');
+    }
+
+    public function restore($id)
+    {
+        $lifespan = Lifespan::withTrashed() -> where('id', $id) -> first();
+        $lifespan -> restore();
+
+        Session::flash('success', 'Lifespan restore Successfully!');
+        return redirect() -> route('lifespan.trashed');
     }
 }
+

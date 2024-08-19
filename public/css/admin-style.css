@@ -1,0 +1,80 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #2b7a0b; 
+}
+
+
+h1.display-4, h2, h3.display-4 {
+    font-family: 'Lobster', cursive;
+    color: #2b7a0b; 
+}
+
+h1.display-2 {
+    font-family: 'Lobster', cursive;
+    color: #2b7a0b;
+    font-size: 50px; 
+}
+
+.card {
+    border: 2px solid #2b7a0b; 
+    background-color: #f9fbe7; 
+}
+
+.card-title {
+    color: #e65100; 
+}
+
+.card-text {
+    color: #5d4037; 
+}
+
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-bottom: 2px solid #2b7a0b; 
+}
+
+.btn-primary {
+    background-color: #388e3c; 
+    border-color: #388e3c; 
+}
+
+.btn-primary:hover {
+    background-color: #2e7d32; 
+    border-color: #2e7d32;
+}
+
+.btn-secondary {
+    background-color: #6d4c41; 
+    border-color: #6d4c41;
+}
+
+.btn-secondary:hover {
+    background-color: #5d4037; 
+    border-color: #5d4037;
+}
+
+
+.navbar {
+    background-color: #4caf50!important; 
+    color: #fff; 
+    max-width: 100%;
+}
+
+.navbar-brand, .nav-link {
+    color: #fff !important; 
+}
+
+.navbar-toggler {
+    border-color: #fff; 
+}
+
+
+.container {
+    background-color: #ffffffcc; 
+    border-radius: 10px;
+}
+
