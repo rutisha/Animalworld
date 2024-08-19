@@ -31,16 +31,4 @@ Working on the Animal World project with Laravel was a amazing experience. I alw
 
 ## Screenshots of the website
 
-### User side
-
-- Screenshot 1: Home page showcasing featured animals.
-- Screenshot 2: Detailed view of an animal's information and lifespan.
-- Screenshot 3: User-friendly navigation and search functionality.
-
-### Admin side
-
-- Screenshot 1: Admin dashboard with options to manage animals.
-- Screenshot 2: Form for adding a new animal.
-- Screenshot 3: List of animals with options to edit, delete, or restore records.
-- Screenshot 4: Detailed view of trashed animal records with restore options.
 
