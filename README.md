@@ -24,15 +24,10 @@ The database schema is designed to efficiently store and manage data related to 
 
 The `animals` and `lifespan` tables have a one-to-one relationship, where each animal is associated with a unique lifespan record.
 
-## Team Members
 
-- Rutisha Patel
-- [Team Member 2]
-- [Team Member 3]
+## Thoughts on Laravel 
 
-## Thoughts on Laravel - Rutisha
-
-Working on the Animal World project with Laravel has been a rewarding learning experience. As someone new to PHP and Laravel, it was initially overwhelming due to the numerous files and configurations. However, with practice, I became more comfortable with the framework. I'm grateful for the lectures and support, and I'm excited to continue expanding my knowledge in Laravel.
+Working on the Animal World project with Laravel was a amazing experience. I always wanted to learn laravel as I am interested in php. By pratically implementing a project on laravel I was able to learn in more details. 
 
 ## Screenshots of the website
 
