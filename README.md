@@ -30,19 +30,15 @@ The `animals` and `lifespan` tables have a one-to-one relationship, where each a
 Working on the Animal World project with Laravel was a amazing experience. I always wanted to learn laravel as I am interested in php. By pratically implementing a project on laravel I was able to learn in more details. 
 
 ## Screenshots of the website
-
+User Side Interface
 ![](/public/img/Screenshot%202024-08-19%20141945.png)
 ![](/public/img/Screenshot%202024-08-19%20141956.png)
 ![](/public/img/Screenshot%202024-08-19%20142008.png)
+
+Admin Side Interface
 ![](/public/img/Screenshot%202024-08-19%20145414.png)
 ![](/public/img/Screenshot%202024-08-19%20145426.png)
 ![](/public/img/Screenshot%202024-08-19%20145439.png)
 
-![](/public/img/Screenshot%202024-08-19%20141945.png)
-![](/public/img/Screenshot%202024-08-19%20141956.png)
-![](/public/img/Screenshot%202024-08-19%20142008.png)
-![](/public/img/Screenshot%202024-08-19%20145414.png)
-![](/public/img/Screenshot%202024-08-19%20145426.png)
-![](/public/img/Screenshot%202024-08-19%20145439.png)
 
 
